@@ -3,24 +3,83 @@
 }
 
 .homescreen{
-    background: url("media/2\ 5d\ Notebook\ Gold\ Online\ Store\ Background\,\ Poster\,\ 2\ 5d\,\ Notebook\ Background\ Image\ And\ Wallpaper\ for\ Free\ Download.jpeg") center no-repeat;
-    height: 720px;
+    background: url("media/pexels-felix-mittermeier-956999.jpg") center no-repeat;
+    background-size: cover;
+    height: 750px;
 }
 .homescreen__background {
-    background-size: cover;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .homescreen__logo {
-    width: 5%;
+    width: 15%;
     object-fit: contain;
     padding-left: 20px;
 }
 
-img + h1 {
+.homescreen__logo + h1 {
     color: white;
     font-family: 'DM Sans', sans-serif;
     font-size: 2.5rem;
     padding-left: 20px;
+}
+
+.homescreen__background__logo {
+    display: flex;
+    align-items: center;
+}
+.homescreen__navigation {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding-right: 50px;
+}
+
+.homescreen__navigation > a > h3 {
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.homescreen__navigation > a {
+    text-decoration: none;
+}
+
+.homescreen__info {
+    margin-top: 50px;
+    margin-left: 120px;
+    color: rgb(237, 213, 96);
+    font-family: 'Kalam', cursive;
+    font-size: 2rem;
+}
+
+.homescreen__info__details {
+    color: white;
+    font-family: 'DM Sans', sans-serif; 
+    font-weight: bolder;
+    width: 50%;
+    font-size: 2.5rem;
+    margin-bottom: 20px;  
+}
+
+.partners > h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'DM Sans', sans-serif; 
+    font-size: 4rem;
+    text-align: center;
+}
+
+.partners__logo {    
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 3rem;  
+    margin: 20px 50px;
+}
+
+.partners__logo > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
