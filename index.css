@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+
+.homescreen{
+    background: url("media/2\ 5d\ Notebook\ Gold\ Online\ Store\ Background\,\ Poster\,\ 2\ 5d\,\ Notebook\ Background\ Image\ And\ Wallpaper\ for\ Free\ Download.jpeg") center no-repeat;
+    height: 720px;
+}
+.homescreen__background {
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.homescreen__logo {
+    width: 5%;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+img + h1 {
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.5rem;
+    padding-left: 20px;
+}
