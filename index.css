@@ -434,12 +434,12 @@ footer > h1 {
     }
 }
 
-@media (min-width: 400px) and (max-width: 599px ) {
+@media (min-width: 300px) and (max-width: 599px ) {
 
     .homescreen{
         background: url("media/background.png") center no-repeat;
         background-size: cover;
-        height: 600px;
+        height: 500px;
         width: 100%;
     }
 
@@ -457,7 +457,7 @@ footer > h1 {
     .homescreen__logo + h1 {
         color: white;
         font-family: 'DM Sans', sans-serif;
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding-left: 10px;
         margin-top: 10px;
     }
@@ -474,8 +474,8 @@ footer > h1 {
         color: white;
         font-family: 'DM Sans', sans-serif; 
         font-weight: bolder;
-        width: 80%;
-        font-size: 1.5rem;
+        width: 90%;
+        font-size: 1.2rem;
         margin-bottom: 20px;  
     }
 
@@ -502,12 +502,14 @@ footer > h1 {
         padding-top: 30px;
         padding-bottom: 50px;
     }
-    
+    .contact {
+        display: block;
+    }
     .address {
         font-family: 'DM Sans', sans-serif;
-        border-right: 1px solid white;
         width: 100%;
         margin-left: 20px;
+        margin-bottom: 40px;
     }
     
     .address > h2 {
@@ -524,7 +526,7 @@ footer > h1 {
     
     .contact_details {
         font-family: 'DM Sans', sans-serif;
-        margin-left: 50px;
+        margin-left: 20px;
         margin-right: 20px;
     }
     
